@@ -31,7 +31,7 @@ const MobileNav = () => {
 
       <nav className="flex gap-2">
         <SignedIn>
-          <UserButton signOutRedirectUrl="/" />{" "}
+          <UserButton afterSignOutUrl="/" />{" "}
           {/* Updated from `afterSignOutUrl` to `signOutRedirectUrl` */}
           <Sheet>
             <SheetTrigger>
@@ -45,7 +45,7 @@ const MobileNav = () => {
             </SheetTrigger>
             <SheetContent className="sheet-content sm:w-64">
               <SheetHeader>
-                <SheetDescription></SheetDescription>
+                <SheetDescription>hello</SheetDescription>
               </SheetHeader>
               {/* ✅ Add SheetTitle for accessibility */}
               <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
