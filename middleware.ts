@@ -10,10 +10,3 @@ export const config = {
     "/(api|trpc)(.*)",
   ],
 };
-
-// Fixing the invalid default export
-module.exports = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-};
